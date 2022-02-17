@@ -11,7 +11,7 @@
 #include <stdlib.h>
 #include <tgmath.h>
 #include <time.h>
-#include <conio.h>
+//#include <conio.h>
 
 #include "config.h" //float vs double and terminal type set here
 
@@ -227,7 +227,7 @@ int main(int argc, char **argv)
                fprintf (stderr,
                "Unknown option character `\\x%x'.\n",
                optopt);
-               return 1;
+            return 1;
          default:
             abort ();
          }

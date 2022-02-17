@@ -4,6 +4,8 @@
 #define TRUE 1
 #define FALSE 0
 
+#include "../config.h"
+
 // WAVE file header format
 typedef struct HEADER
    {

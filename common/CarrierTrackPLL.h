@@ -1,6 +1,8 @@
 #ifndef CARRIERTRACKPLL_H
 #define CARRIERTRACKPLL_H
 
+#include "../config.h"
+
 //#define ZeroPhase 1.5708
 //#define CONST_CNTR_ANGLE 1.5708 //this is just pi/2 ?!
 #define CONST_CNTR_ANGLE (M_PI/2.0)
